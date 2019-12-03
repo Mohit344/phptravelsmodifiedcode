@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="phpTravels" duration-ms="41856" started-at="2019-12-03T20:20:54 IST" finished-at="2019-12-03T20:21:36 IST">
+    <groups>
+    </groups>
+    <test name="hotelBookingTest" duration-ms="41856" started-at="2019-12-03T20:20:54 IST" finished-at="2019-12-03T20:21:36 IST">
+      <class name="com.phptravels.testscript.TestHotelBooking">
+        <test-method status="PASS" signature="configSetup(org.testng.ITestContext)[pri:0, instance:com.phptravels.testscript.TestHotelBooking@42d8062c]" name="configSetup" is-config="true" duration-ms="15958" started-at="2019-12-03T20:20:54 IST" finished-at="2019-12-03T20:21:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bcd426c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetup -->
+        <test-method status="PASS" signature="bookingHotel()[pri:0, instance:com.phptravels.testscript.TestHotelBooking@42d8062c]" name="bookingHotel" duration-ms="24840" started-at="2019-12-03T20:21:10 IST" finished-at="2019-12-03T20:21:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingHotel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phptravels.testscript.TestHotelBooking@42d8062c]" name="tearDown" is-config="true" duration-ms="1002" started-at="2019-12-03T20:21:35 IST" finished-at="2019-12-03T20:21:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravels.testscript.TestHotelBooking -->
+    </test> <!-- hotelBookingTest -->
+  </suite> <!-- phpTravels -->
+  <suite name="phptravelsSuits" duration-ms="0" started-at="2019-12-03T20:21:36 IST" finished-at="2019-12-03T20:21:36 IST">
+    <groups>
+    </groups>
+  </suite> <!-- phptravelsSuits -->
+</testng-results>
